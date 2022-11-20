@@ -20,7 +20,8 @@ class Pizzeria:
           
     def get_close(self):
         return f'{self.restaurant_name} is closing'
-        
+
+
 @dataclass            
 class Chef(Pizzeria):
     
@@ -30,7 +31,8 @@ class Chef(Pizzeria):
     
     def create_pizza(self):
         return f'Hi. I am {self.chef_name} - the chef with qualification {self.qualification}'
-    
+ 
+ 
 class Waiter(Pizzeria):
     
     def __init__(self, waiter_name, qualification, salary):
@@ -41,6 +43,7 @@ class Waiter(Pizzeria):
     @classmethod   
     def get_new_salar(cls, waiter_name, qualification, new_salary):
         return f'I would like to have a new salary: {cls(waiter_name, qualification, new_salary).salary} dollars'
+
 
 class Client(Pizzeria):
     
