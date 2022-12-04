@@ -9,7 +9,7 @@ from time import time
 BASIC_DIR = 'img'
 THREAD_DIR = 'thread_img'
 NUM_THREADS = 4
-QUANTITY_IMG = 10
+QUANTITY_IMG = 3
 q = Queue()
 url = 'https://rozetka.com.ua/notebooks/c80004/'
 
