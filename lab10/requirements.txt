@@ -1,0 +1,6 @@
+aiohttp==3.8.3
+beautifulsoup4==4.11.1
+bs4==0.0.1
+httpx==0.23.1
+requests==2.26.0
+
