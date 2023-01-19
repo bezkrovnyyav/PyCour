@@ -1,0 +1,4 @@
+flake8==6.0.0
+names==0.3.0
+pyjokes==0.6.0
+pymongo==4.3.3
